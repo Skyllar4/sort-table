@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+tr {
+    border: 1px solid #ccc;
+}
+td, th {
+    border: 1px solid #ccc;
+}
+
+:root { /*Набор цветов глаз, используихщся в проекте*/
+    --blue-Eye: blue;
+    --red-Eye: red;
+    --brown-Eye: brown;
+    --green-Eye: green;
+}
+
+.blue {
+    background-color: var(--blue-Eye);
+}
+
+.red {
+    background-color: var(--red-Eye);
+}
+
+.brown {
+    background-color: var(--brown-Eye);
+}
+
+.green {
+    background-color: var(--green-Eye);
+}
+
+.main-container {
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+.main-table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 3px solid #ccc;
+}
+
+.cell {
+    width: 140px;
+    text-align: center;
+}
+
+.bigCell {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.sort-btn {
+    width: 141px;
+    display: block;
+}
+
+.sort-container {
+    display: flex;
+}
+
+.change-container {
+    border: 1px solid black;
+    padding: 10px 15px;
+    max-width: 330px;
+    position: absolute;
+    background-color: white;
+}
+
+.d-block {
+    display: block;
+}
+
+.decBtn {
+    background-color: #F08080;
+    margin-top: 5px;
+}
+
+.accBtn {
+    margin-top: 5px;
+    background-color: #32CD32;
+    margin-right: 5px;
+}
+
+.d-none {
+    width: 10px;
+    font-size: 0;
+}
